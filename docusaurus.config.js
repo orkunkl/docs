@@ -1,12 +1,13 @@
 module.exports = {
   title: 'CosmWasm Documentation',
   tagline: 'CosmWasm documentation',
-  url: 'https://docs.cosmwasm.com',
-  baseUrl: '/',
+  url: 'https://test-docs.cosmwasm.com',
+  baseUrl: '/docs/',
+  // baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.svg',
-  organizationName: 'CosmWasm',
+  organizationName: 'orkunkl',
   projectName: 'docs',
   themeConfig: {
     navbar: {
@@ -106,8 +107,8 @@ module.exports = {
       id: 'new_docs',
       content:
         'New documentation is on the horizon',
-      backgroundColor: '#7691FE',
-      textColor: '#F5F6F7',
+      backgroundColor: '#7691FE', // Defaults to `#fff`.
+      textColor: '#F5F6F7', // Defaults to `#000`.
     },
     algolia: {
       apiKey: 'abeca9781b806ca955a7e0f1ee95d003',
